@@ -1,0 +1,39 @@
+# Operating System and Environment
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python / Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Dataset files (large data should not be tracked in git)
+dataset/
+PlantVillage/
+*.zip
+*.tar.gz
+
+# Model weights and checkpoints
+models/
+*.keras
+*.h5
+*.tflite
+
+# Output results and evaluation plots
+results/
+PlantVillage_Results/
+*.png
+*.txt
+*.json
+!requirements.txt
+!.gitignore
